@@ -1,0 +1,32 @@
+.logo-margin{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+hr {
+  color: grey;
+  background-color: grey; /* Modern Browsers */
+  border: none;
+  height: 3px;
+}
+
+h3 {
+	color: #7d97ad;
+}
+
+.col-md-4 h3 {
+	color: #2d3c49;
+}
+
+.col-md-4 a {
+	color: #2d3c49;
+}
+
+.col-md-4 {
+   text-align: center;
+   color: #2d3c49;
+}
