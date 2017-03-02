@@ -69,6 +69,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
   grunt.loadNpmTasks('grunt-htmllint');
-  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images']);
+  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images', 'htmllint']);
 
 };
