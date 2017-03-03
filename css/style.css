@@ -1,10 +1,10 @@
-.logo-margin{
-	margin-top:10px;
-	margin-bottom:10px;
+.logo-margin {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 body {
-   font-family: 'Lato', sans-serif;
+   font-family: "Lato", sans-serif;
 }
 
 hr {
@@ -18,15 +18,15 @@ h3 {
 	color: #7d97ad;
 }
 
-.col-md-4 h3 {
+.color-gray h3 {
 	color: #2d3c49;
 }
 
-.col-md-4 a {
+.color-gray a {
 	color: #2d3c49;
 }
 
-.col-md-4 {
+.color-gray {
    text-align: center;
    color: #2d3c49;
 }
