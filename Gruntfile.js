@@ -59,7 +59,14 @@ module.exports = function(grunt) {
     /* Linter for HTMML */
     htmllint: {
       options: {},
-      src: ['*.html']
+      src: ['*.html','*.htm']
+    },
+    
+    /* CSS Linter */
+    csslint: {
+      strict: {
+      src: ['css/*.css']
+      },
     },
 
   });
@@ -69,6 +76,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
   grunt.loadNpmTasks('grunt-htmllint');
-  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images']);
+  grunt.loadNpmTasks('grunt-contrib-csslint');
+  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images', 'htmllint', 'csslint']);
 
 };
